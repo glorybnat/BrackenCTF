@@ -1,0 +1,119 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #1f1414;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section#home {
+    position: relative;
+    height: 100vh;
+    background: url('../img/giphy\ \(7\).webp') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+    text-shadow: 2px 2px 5px #181414;
+}
+
+section#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+section#home h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#home p {
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+section#home .btn {
+    background-color: #1b1313;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section#home .btn:hover {
+    background-color: #111;
+    color: #fff;
+    text-shadow: 2px 2px 5px #080707;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 2px 2px 5px #2c1c1c;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hidden-flag {
+    display: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+p {
+    cursor: pointer;
+}

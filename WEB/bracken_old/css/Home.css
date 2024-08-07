@@ -1,0 +1,62 @@
+body {
+    background: url('path-to-your-image.jpg') repeat; /* Replace with your image URL */
+    color: #FFFFFF;
+    font-family: 'Press Start 2P', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;  /* Reduced padding for smaller header */
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom: 2px solid #00FF00;
+}
+
+.logo {
+    font-size: 1.5em;  /* Reduced font size for smaller header */
+    margin-left: 20px;
+}
+
+nav a {
+    color: #00FF00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 1.5em; /* Adjusted to fit the Press Start 2P font */
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1em; /* Adjusted to fit the Press Start 2P font */
+}
